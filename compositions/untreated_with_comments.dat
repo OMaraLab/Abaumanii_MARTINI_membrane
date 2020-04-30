@@ -1,0 +1,16 @@
+#type label c1   c2      c3   c4   % total  martini_u_idx  name     itp_filename                    martini_lipid_name 
+PG    34:0 16:0 18:0     -    -     2              1       DPPG    martini_v2.0_DPPG_01.itp             XX
+PG    34:1 18:1 16:0     -    -    22              2       POPG    martini_v2.0_POPG_02.itp             XX
+PG    34:2 16:1 18:1     -    -    10              3       DOPG    martini_v2.0_DOPG_02.itp             XX
+PG    36:3 18:2 18:1     -    -    12              4       D2PG    D2PG_18:2_18:1.itp                   XX
+CL    68:0 16:0 18:0    16:0  18:0  8              5       CDL2    cdl2.itp                             XX     
+CL    68:1 18:1 16:0    18:0  16:0  7              6       CDL1    cdl1.itp                             XX
+CL    68:2 18:1 16:0    18:1  16:0  5              7       CDL6    cdl6.itp                             XX
+CL    70:1 18:1 16:0    18:0  18:0  3              6       CDL1    cdl1.itp                             XX
+CL    75:5 18:2 18:1    18:1  21:1  3              8       CDL7    cdl7.itp                             XX
+CL    75:6 18:2 18:3    18:1  21:1  3              9       CDL8    cdl8.itp                             XX
+CL    75:7 18:3 20:1    17:0  20:1  4             10       CDL9    cdl9.itp                             XX
+PE    34:1 18:1 16:0     -    -    10             11       POPE    martini_v2.0_POPE_02.itp             XX
+PE    34:2 16:1 18:1     -    -     6             12       DOPE    martini_v2.0_DOPE_02.itp             XX
+PE    36:1 18:1 18:0     -    -     1             11       POPE    martini_v2.0_POPE_02.itp             XX
+PE    36:2 18:1 18:1     -    -     4             12       DOPE    martini_v2.0_DOPE_02.itp             XX
