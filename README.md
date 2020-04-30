@@ -12,6 +12,9 @@ Three conditions examined
 
 Membrane published as part of XXXXX.
 
-All material is provided under an MIT license.
 
+
+All material is provided under an MIT license.
+Please cite both of the references above if you use this work.
+Direct any questions to hugomacdermott@gmail.com
 
