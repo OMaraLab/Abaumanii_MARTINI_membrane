@@ -1,9 +1,9 @@
 #include "martini_v2.2refP.itp"
 #define RUBBER_BANDS
 
-#include "Protein_A.itp"
-#include "Protein_B.itp"
-#include "Protein_C.itp"
+#include "AdeJ_A.itp"
+#include "AdeJ_B.itp"
+#include "AdeJ_C.itp"
 
 #include "martini_v2.0_DPPG_01.itp"
 #ifdef POSRES

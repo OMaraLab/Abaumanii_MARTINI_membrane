@@ -1,9 +1,9 @@
 #include "martini_v2.2refP.itp"
 #define RUBBER_BANDS
 
-#include "Protein_A.itp"
-#include "Protein_B.itp"
-#include "Protein_C.itp"
+#include "AdeB_A.itp"
+#include "AdeB_B.itp"
+#include "AdeB_C.itp"
 
 
 #include "martini_v2.0_DPPG_01.itp"
