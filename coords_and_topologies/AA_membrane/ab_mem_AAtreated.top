@@ -15,7 +15,7 @@
 #include restrain_PG_PE.itp
 #endif
 
-#include "D3PG_20:4_18:1.itp"
+#include "d3pg.itp"
 #ifdef POSRES
 #include restrain_PG_PE.itp
 #endif
