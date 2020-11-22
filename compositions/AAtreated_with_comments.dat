@@ -1,14 +1,16 @@
 #type label c1   c2      c3   c4   % total  martini_u_idx   name    itp_filename                    martini_lipid_name 
-PG    32:0 16:0 16:0    -      -    6            1          DPPG    martini_v2.0_DPPG_01.itp             XX
-PG    34:1 18:1 16:0    -      -   12            2          POPG    martini_v2.0_POPG_02.itp             XX
-PG    34:2 16:1 18:1    -      -    3            3          DOPG    martini_v2.0_DOPG_02.itp             XX
+PG    32:0 16:0 16:0    -      -    6            1          DPPG    martini_v2.0_DPPG_01.itp             DPPG
+PG    34:1 18:1 16:0    -      -   12            2          POPG    martini_v2.0_POPG_02.itp             POPG
+PG    34:2 16:1 18:1    -      -    3            3          DOPG    martini_v2.0_DOPG_02.itp             DOPG
 PG    36:5 20:4 16:1    -      -   24            4          D3PG    d3pg.itp                             XX
 PG    38:5 20:4 18:1    -      -    3            4          D3PG    d3pg.itp                             XX
-CL    66:1 18:1 16:0    16:0  16:0  3            5          CDL1    cdl1.itp                             XX
-CL    67:1 18:1 17:0    16:0  16:0  6            5          CDL1    cdl1.itp                             XX
-CL    68:0 16:0 18:0    16:0  18:0  4            6          CDL2    cdl2.itp                             XX
-CL    68:1 18:1 16:0    18:0  16:0  4            5          CDL1    cdl1.itp                             XX
-CL    68:3 18:3 16:0    18:0  16:0  4            7          CDL4    cdl4.itp                             XX
-CL    70:4 20:4 18:0    16:0  16:0  7            8          CDL5    cdl5.itp                             XX
-PE    34:1 18:1 16:0    -      -   11            9          POPE    martini_v2.0_POPE_02.itp             XX
-PE    36:4 20:4 16:0    -      -   13           10          PAPE    martini_v2.0_PAPE_01.itp             XX
+CL    66:1 18:1 16:0    16:0  16:0  3            5          CDL1    cdl1.itp                             -
+CL    67:1 18:1 17:0    16:0  16:0  6            5          CDL1    cdl1.itp                             -
+CL    68:0 16:0 18:0    16:0  18:0  4            6          CDL2    cdl2.itp                             -
+CL    68:1 18:1 16:0    18:0  16:0  4            5          CDL1    cdl1.itp                             -
+CL    68:3 18:3 16:0    18:0  16:0  4            7          CDL4    cdl4.itp                             -
+CL    70:4 20:4 18:0    16:0  16:0  7            8          CDL5    cdl5.itp                             -
+PE    34:1 18:1 16:0    -      -   11            9          POPE    martini_v2.0_POPE_02.itp             POPE
+PE    36:4 20:4 16:0    -      -   13           10          PAPE    martini_v2.0_PAPE_01.itp             PAPE
+
+Note there is no MARTINI naming convention for cardiolipins 
