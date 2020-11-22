@@ -2,8 +2,8 @@
 PG    32:0 16:0 16:0    -      -    6            1          DPPG    martini_v2.0_DPPG_01.itp             XX
 PG    34:1 18:1 16:0    -      -   12            2          POPG    martini_v2.0_POPG_02.itp             XX
 PG    34:2 16:1 18:1    -      -    3            3          DOPG    martini_v2.0_DOPG_02.itp             XX
-PG    36:5 20:4 16:1    -      -   24            4          D3PG    D3PG_20\:4_18\:1.itp                 XX
-PG    38:5 20:4 18:1    -      -    3            4          D3PG    D3PG_20\:4_18\:1.itp                 XX
+PG    36:5 20:4 16:1    -      -   24            4          D3PG    d3pg.itp                             XX
+PG    38:5 20:4 18:1    -      -    3            4          D3PG    d3pg.itp                             XX
 CL    66:1 18:1 16:0    16:0  16:0  3            5          CDL1    cdl1.itp                             XX
 CL    67:1 18:1 17:0    16:0  16:0  6            5          CDL1    cdl1.itp                             XX
 CL    68:0 16:0 18:0    16:0  18:0  4            6          CDL2    cdl2.itp                             XX
