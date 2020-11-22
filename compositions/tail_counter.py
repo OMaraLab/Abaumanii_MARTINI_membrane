@@ -1,4 +1,14 @@
 import numpy as np
+import argparse 
+
+parser = argparse.ArgumentParser(description='Process lipid compositions to count tails')
+parser.add_argument('infile', type=str,
+                    help='an input file to count tails')
+args = parser.parse_args()
+
+
+# eg usage python tail_counter.py AAtreated_with_comments.dat
+        
 
 class lipid(object):
     """docstring for lipid"""
@@ -9,12 +19,11 @@ class lipid(object):
         self.tails = tails
 
 
-
+# read lipids from a composition file
 lipids = []
-
-with open('psabc.dat', 'r') as f:
+with open(args.infile, 'r') as f:
     lines = f.readlines()
-    for line in lines:
+    for line in lines[1:-1]: #first line is blank
         toks = line.split()
         lipid_t = toks[0]
         lipid_string = toks[1]
@@ -29,17 +38,19 @@ with open('psabc.dat', 'r') as f:
             newlipid = lipid(lipid_t, lipid_string, filtered_tails)
             lipids.append(newlipid)
 
-
 tails = [l.tails for l in lipids]
 flat_tails = []
 for sublist in tails:
     for item in sublist:
         flat_tails.append(item)
-
-tail_types = ['14:0','16:0', '16:1', '16:2','17:0', '18:0', '18:1','18:2','18:3', '20:4', '20:5', '21:1',  '22:6']
 n_tails = len(flat_tails)
+
+# ref types to count, must be updated manually
+tail_types = ['14:0','16:0', '16:1', '16:2','17:0', '18:0', '18:1','18:2','18:3', '20:4', '20:5', '21:1',  '22:6']
+
+
 print('\nWELCOME TO THE LIPID TAIL COUNTER\n')
-print(f'the number of tails is {n_tails} :))')
+print(f'the number of tails is {n_tails}')
 store_dict = dict()
 norm_dict  = dict()
 for tail in tail_types:

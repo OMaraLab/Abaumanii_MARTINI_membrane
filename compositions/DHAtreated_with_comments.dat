@@ -16,5 +16,3 @@ PE    34:1 18:1 16:0    -     -   11              10       POPE    martini_v2.0_
 PE    34:2 18:1 16:1    -     -    2              11       DOPE    martini_v2.0_DOPE_02.itp             DOPE
 PE    36:5 20:5 16:0    -     -    8              12       D2PE    d2pe.itp                             XX
 PE    36:6 20:5 16:1    -     -    1              13       D3PE    d3pe.itp                             XX
-
-Note there is no MARTINI naming convention for cardiolipins 

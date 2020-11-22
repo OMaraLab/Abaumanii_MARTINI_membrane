@@ -12,5 +12,3 @@ CL    68:3 18:3 16:0    18:0  16:0  4            7          CDL4    cdl4.itp    
 CL    70:4 20:4 18:0    16:0  16:0  7            8          CDL5    cdl5.itp                             -
 PE    34:1 18:1 16:0    -      -   11            9          POPE    martini_v2.0_POPE_02.itp             POPE
 PE    36:4 20:4 16:0    -      -   13           10          PAPE    martini_v2.0_PAPE_01.itp             PAPE
-
-Note there is no MARTINI naming convention for cardiolipins 
