@@ -1,0 +1,115 @@
+#include "martini_v2.2refP.itp"
+#define RUBBER_BANDS
+
+#include "AdeB_A.itp"
+#include "AdeB_B.itp"
+#include "AdeB_C.itp"
+
+
+#include "martini_v2.0_DPPG_01.itp"
+#ifdef POSRES
+#include "restrain_PG_PE.itp"
+#endif
+
+#include "martini_v2.0_POPG_02.itp"
+#ifdef POSRES
+#include "restrain_PG_PE.itp"
+#endif 
+
+
+#include "martini_v2.0_DOPG_02.itp"
+#ifdef POSRES
+#include "restrain_PG_PE.itp"
+#endif
+
+#include "d2pg.itp"
+#ifdef POSRES
+#include "restrain_PG_PE.itp"
+#endif
+
+#include "cdl2.itp"
+#ifdef POSRES
+#include "restrain_CDL.itp"
+#endif
+
+#include "cdl1.itp"
+#ifdef POSRES
+#include "restrain_CDL.itp"
+#endif
+
+
+#include "cdl6.itp"
+#ifdef POSRES
+#include "restrain_CDL.itp"
+#endif
+
+
+#include "cdl7.itp"
+#ifdef POSRES
+#include "restrain_CDL.itp"
+#endif
+
+
+#include "cdl8.itp"
+#ifdef POSRES
+#include "restrain_CDL.itp"
+#endif
+
+
+#include "cdl9.itp"
+#ifdef POSRES
+#include "restrain_CDL.itp"
+#endif
+
+
+#include "martini_v2.0_POPE_02.itp"
+#ifdef POSRES
+#include "restrain_PG_PE.itp"
+#endif
+
+
+#include "martini_v2.0_DOPE_02.itp"
+#ifdef POSRES
+#include "restrain_PG_PE.itp"
+#endif
+
+#include "martini_v2.0_ions.itp"
+
+[ system ]
+; name
+Protein in INSANE! Membrane UpperLeaflet>DPPG:POPG:DOPG:D2PG:CDL2:CDL1:CDL6:CDL7:CDL8:CDL9:POPE:DOPE=2.0:22.0:10.0:12.0:8.0:10.0:5.0:3.0:3.0:4.0:11.0:10.0 LowerLeaflet>DPPG:POPG:DOPG:D2PG:CDL2:CDL1:CDL6:CDL7:CDL8:CDL9:POPE:DOPE=2.0:22.0:10.0:12.0:8.0:10.0:5.0:3.0:3.0:4.0:11.0:10.0
+
+
+[ molecules ]
+; name  number
+Protein_A          1
+Protein_B          1
+Protein_C          1
+DPPG            28
+POPG           313
+DOPG           142
+D2PG           170
+CDL2           113
+CDL1           142
+CDL6            71
+CDL7            42
+CDL8            42
+CDL9            56
+POPE           156
+DOPE           142
+DPPG            28
+POPG           310
+DOPG           141
+D2PG           169
+CDL2           112
+CDL1           141
+CDL6            70
+CDL7            42
+CDL8            42
+CDL9            56
+POPE           155
+DOPE           141
+PW          117833
+NA+              1819
+CL-              1819
+NA+           3165
