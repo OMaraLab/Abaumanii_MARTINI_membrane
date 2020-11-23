@@ -99,14 +99,14 @@ lipidsa.update({      # 1   2   3   4   5   6   7   8   9  10  11  12  13  14  1
   "DSDG.o": (moltype, "C61 C41 C11 C62 C42 C12 GL1 GL2 C1A C2A C3A C4A C5A  -  C1B C2B C3B C4B C5B  - "),
   "DSSQ.o": (moltype, " -   -   S6 C6   C4 C1  GL1 GL2 C1A C2A C3A C4A C5A  -  C1B C2B C3B C4B C5B  - "),
   # USING CUSTOM PG LIPIDS PLEASE ONLY USE IN CONJUNCTION WITH ITPS I GIVE YOU hugomacdermott@gmail.com
-    "D2PG": (moltype, " -   -   -  GL0  -  PO4 GL1 GL2 C1A D2A D3A C4A  -   -  C1B D2B C3B C4B  -   - "),
+    "OIPG": (moltype, " -   -   -  GL0  -  PO4 GL1 GL2 C1A D2A D3A C4A  -   -  C1B D2B C3B C4B  -   - "),
     "DPPG": (moltype, " -   -   -  GL0  -  PO4 GL1 GL2 C1A C2A C3A C4A  -   -  C1B C2B C3B C4B  -   - "),
-    "D3PG": (moltype, " -   -   -  GL0  -  PO4 GL1 GL2 D1A D2A D3A D4A C5A  -  C1B D2B C3B C4B  -   - "),
+    "OAPG": (moltype, " -   -   -  GL0  -  PO4 GL1 GL2 D1A D2A D3A D4A C5A  -  C1B D2B C3B C4B  -   - "),
     "PAPE": (moltype, " -   -   -  NH3  -  PO4 GL1 GL2 D1A D2A D3A D4A C5A  -  C1B C2B C3B C4B  -   - "),
-    "D4PG": (moltype, " -   -   -  GL0  -  PO4 GL1 GL2 D1A D2A D3A D4A D5A  -  C1B D2B C3B C4B  -   - "),
-    "D5PG": (moltype, " -   -   -  GL0  -  PO4 GL1 GL2 D1A D2A D3A D4A D5A  -  C1B C2B C3B C4B  -   - "),
-    "D2PE": (moltype, " -   -   -  NH3  -  PO4 GL1 GL2 D1A D2A D3A D4A D5A  -  C1B C2B C3B C4B  -   - "),
-    "D3PE": (moltype, " -   -   -  NH3  -  PO4 GL1 GL2 D1A D2A D3A D4A D5A  -  C1B D2B C3B C4B  -   - "),
+    "OUPG": (moltype, " -   -   -  GL0  -  PO4 GL1 GL2 D1A D2A D3A D4A D5A  -  C1B D2B C3B C4B  -   - "),
+    "PUPG": (moltype, " -   -   -  GL0  -  PO4 GL1 GL2 D1A D2A D3A D4A D5A  -  C1B C2B C3B C4B  -   - "),
+    "PUPE": (moltype, " -   -   -  NH3  -  PO4 GL1 GL2 D1A D2A D3A D4A D5A  -  C1B C2B C3B C4B  -   - "),
+    "PUPE": (moltype, " -   -   -  NH3  -  PO4 GL1 GL2 D1A D2A D3A D4A D5A  -  C1B D2B C3B C4B  -   - "),
 
 })
 
