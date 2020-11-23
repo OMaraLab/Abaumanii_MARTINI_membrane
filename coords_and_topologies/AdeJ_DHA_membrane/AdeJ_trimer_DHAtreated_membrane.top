@@ -19,17 +19,17 @@
 #include "restrain_PG_PE.itp"
 #endif
 
-#include "d2pg.itp"
+#include "OIPG.itp"
 #ifdef POSRES
 #include "restrain_PG_PE.itp"
 #endif
 
-#include "d4pg.itp"
+#include "OUPG.itp"
 #ifdef POSRES
 #include "restrain_PG_PE.itp"
 #endif
 
-#include "d5pg.itp"
+#include "PUPG.itp"
 #ifdef POSRES
 #include "restrain_PG_PE.itp"
 #endif
@@ -59,12 +59,12 @@
 #include "restrain_PG_PE.itp"
 #endif
 
-#include "d2pe.itp"
+#include "PUPE.itp"
 #ifdef POSRES
 #include "restrain_PG_PE.itp"
 #endif
 
-#include "d3pe.itp"
+#include "OUPE.itp"
 #ifdef POSRES
 #include "restrain_PG_PE.itp"
 #endif
@@ -73,7 +73,7 @@
 
 [ system ]
 ; name
-Protein in INSANE! Membrane UpperLeaflet>DPPG:POPG:DOPG:D2PG:D4PG:D5PG:CDL1:CDL2:CDL3:POPE:DOPE:D2PE:D3PE=6.0:22.0:4.0:3.0:14.0:3.0:13.0:7.0:6.0:11.0:2.0:8.0:1.0 LowerLeaflet>DPPG:POPG:DOPG:D2PG:D4PG:D5PG:CDL1:CDL2:CDL3:POPE:DOPE:D2PE:D3PE=6.0:22.0:4.0:3.0:14.0:3.0:13.0:7.0:6.0:11.0:2.0:8.0:1.0
+Protein in INSANE! Membrane UpperLeaflet>DPPG:POPG:DOPG:OIPG:OUPG:PUPG:CDL1:CDL2:CDL3:POPE:DOPE:PUPE:OUPE=6.0:22.0:4.0:3.0:14.0:3.0:13.0:7.0:6.0:11.0:2.0:8.0:1.0 LowerLeaflet>DPPG:POPG:DOPG:OIPG:OUPG:PUPG:CDL1:CDL2:CDL3:POPE:DOPE:PUPE:OUPE=6.0:22.0:4.0:3.0:14.0:3.0:13.0:7.0:6.0:11.0:2.0:8.0:1.0
 
 
 [ molecules ]
@@ -85,29 +85,29 @@ Protein_C        1
 DPPG            85
 POPG           312
 DOPG            56
-D2PG            42
-D4PG           198
-D5PG            42
+OIPG            42
+OUPG           198
+PUPG            42
 CDL1           184
 CDL2            99
 CDL3            85
 POPE           156
 DOPE            28
-D2PE           113
-D3PE            14
+PUPE           113
+OUPE            14
 DPPG            84
 POPG           310
 DOPG            56
-D2PG            42
-D4PG           197
-D5PG            42
+OIPG            42
+OUPG           197
+PUPG            42
 CDL1           183
 CDL2            98
 CDL3            84
 POPE           155
 DOPE            28
-D2PE           112
-D3PE            14
+PUPE           112
+OUPE            14
 PW          110001
 NA+              1717
 CL-              1717

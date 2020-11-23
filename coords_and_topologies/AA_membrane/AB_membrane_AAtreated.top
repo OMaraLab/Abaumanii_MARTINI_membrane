@@ -15,7 +15,7 @@
 #include restrain_PG_PE.itp
 #endif
 
-#include "d3pg.itp"
+#include "OAPG.itp"
 #ifdef POSRES
 #include restrain_PG_PE.itp
 #endif
@@ -54,7 +54,7 @@
 
 [ system ]
 ; name
-INSANE! Membrane UpperLeaflet>DPPG:POPG:DOPG:D3PG:CDL1:CDL2:CDL4:CDL5:POPE:PAPE=6.0:12.0:3.0:27.0:13.0:4.0:4.0:7.0:11.0:13.0 LowerLeaflet>DPPG:POPG:DOPG:D3PG:CDL1:CDL2:CDL4:CDL5:POPE:PAPE=6.0:12.0:3.0:27.0:13.0:4.0:4.0:7.0:11.0:13.0
+INSANE! Membrane UpperLeaflet>DPPG:POPG:DOPG:OAPG:CDL1:CDL2:CDL4:CDL5:POPE:PAPE=6.0:12.0:3.0:27.0:13.0:4.0:4.0:7.0:11.0:13.0 LowerLeaflet>DPPG:POPG:DOPG:OAPG:CDL1:CDL2:CDL4:CDL5:POPE:PAPE=6.0:12.0:3.0:27.0:13.0:4.0:4.0:7.0:11.0:13.0
 
 
 [ molecules ]
@@ -62,7 +62,7 @@ INSANE! Membrane UpperLeaflet>DPPG:POPG:DOPG:D3PG:CDL1:CDL2:CDL4:CDL5:POPE:PAPE=
 DPPG            91
 POPG           182
 DOPG            45
-D3PG           410
+OAPG           410
 CDL1           197
 CDL2            60
 CDL4            60
@@ -72,7 +72,7 @@ PAPE           197
 DPPG            91
 POPG           182
 DOPG            45
-D3PG           410
+OAPG           410
 CDL1           197
 CDL2            60
 CDL4            60

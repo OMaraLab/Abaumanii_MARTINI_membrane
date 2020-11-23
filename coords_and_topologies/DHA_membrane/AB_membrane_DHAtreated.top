@@ -17,17 +17,17 @@
 #include restrain_PG_PE.itp
 #endif
 
-#include "d2pg.itp"
+#include "OIPG.itp"
 #ifdef POSRES
 #include restrain_PG_PE.itp
 #endif
 
-#include "d4pg.itp"
+#include "OUPG.itp"
 #ifdef POSRES
 #include restrain_PG_PE.itp
 #endif
 
-#include "d5pg.itp"
+#include "PUPG.itp"
 #ifdef POSRES
 #include restrain_PG_PE.itp
 #endif
@@ -57,12 +57,12 @@
 #include restrain_CDL.itp
 #endif
 
-#include "d2pe.itp"
+#include "PUPE.itp"
 #ifdef POSRES
 #include restrain_CDL.itp
 #endif
 
-#include "d3pe.itp"
+#include "OUPE.itp"
 #ifdef POSRES
 #include restrain_CDL.itp
 #endif
@@ -71,7 +71,7 @@
 
 [ system ]
 ; name
-INSANE! Membrane UpperLeaflet>DPPG:POPG:DOPG:D2PG:D4PG:D5PG:CDL1:CDL2:CDL3:POPE:DOPE:D2PE:D3PE=6.0:22.0:4.0:3.0:14.0:3.0:13.0:7.0:6.0:11.0:2.0:8.0:1.0 LowerLeaflet>DPPG:POPG:DOPG:D2PG:D4PG:D5PG:CDL1:CDL2:CDL3:POPE:DOPE:D2PE:D3PE=6.0:22.0:4.0:3.0:14.0:3.0:13.0:7.0:6.0:11.0:2.0:8.0:1.0
+INSANE! Membrane UpperLeaflet>DPPG:POPG:DOPG:OIPG:OUPG:PUPG:CDL1:CDL2:CDL3:POPE:DOPE:PUPE:OUPE=6.0:22.0:4.0:3.0:14.0:3.0:13.0:7.0:6.0:11.0:2.0:8.0:1.0 LowerLeaflet>DPPG:POPG:DOPG:OIPG:OUPG:PUPG:CDL1:CDL2:CDL3:POPE:DOPE:PUPE:OUPE=6.0:22.0:4.0:3.0:14.0:3.0:13.0:7.0:6.0:11.0:2.0:8.0:1.0
 
 
 [ molecules ]
@@ -79,29 +79,29 @@ INSANE! Membrane UpperLeaflet>DPPG:POPG:DOPG:D2PG:D4PG:D5PG:CDL1:CDL2:CDL3:POPE:
 DPPG            91
 POPG           334
 DOPG            60
-D2PG            45
-D4PG           212
-D5PG            45
+OIPG            45
+OUPG           212
+PUPG            45
 CDL1           197
 CDL2           106
 CDL3            91
 POPE           167
 DOPE            30
-D2PE           121
-D3PE            15
+PUPE           121
+OUPE            15
 DPPG            91
 POPG           334
 DOPG            60
-D2PG            45
-D4PG           212
-D5PG            45
+OIPG            45
+OUPG           212
+PUPG            45
 CDL1           197
 CDL2           106
 CDL3            91
 POPE           167
 DOPE            30
-D2PE           121
-D3PE            15
+PUPE           121
+OUPE            15
 PW          69801
 NA+              1219
 CL-              1219
