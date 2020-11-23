@@ -113,10 +113,10 @@
   13 14 15  2     ma_pgg
   13 14 16  2     ma_pgc ; link onto Sn2 tail
   14 16 17  2     ma_gcc ;Sn2 start
-  16 17 18  2     ma_ccd
+  16 17 18  2     ma_ccc
   17 18 19  2     ma_cdc
   15 20 21  2     ma_gcc ; Sn1 Start
-  20 21 22  2     ma_ccd
+  20 21 22  2     ma_ccc
   21 22 23  2     ma_cdc
   18 19 24  2     ma_dcc ; new angle for new bead
   22 23 25  2     ma_dcc ; new angle for new bead
