@@ -1,0 +1,50 @@
+
+[ moleculetype ]
+; molname       nrexcl
+PAM                1
+
+[ atoms ]
+;id type resnr residu atom cgnr   charge
+1   Qda     1     PAM     B1    1    1
+2   SC5     1     PAM     B2    2    0    
+3   SC5     1     PAM     B3    3    0    
+4   SC5     1     PAM     B4    4    0    
+5   N0      1     PAM     B5    5    0 
+6   N0      1     PAM     B6    6    0
+7   SC5     1     PAM     B7    7    0  
+8   SC5     1     PAM     B8    8    0
+9   SC5     1     PAM     B9    9    0
+10  Qda     1     PAM     B10   10   1 
+
+[bonds]
+;  i     j   funct   length  force.c.
+   4      5    1       0.281    8000
+   5      6    1       0.447    2000
+   6      7    1       0.281    8000
+   
+
+[constraints]
+;  i     j   funct   length
+   1     2     1       0.244
+   2      3    1       0.27     
+   2      4    1       0.27     
+   3      4    1       0.27     
+   7      8    1       0.27     
+   7      9    1       0.27     
+   8      9    1       0.27
+   9      10   1       0.244     
+
+[angles]
+;  i     j    k     funct   angle  force.c.
+   1     2    3       2     106     2000
+   1     2    4       2     164     350
+   2     4    5       2     158     100
+   3     4    5       2     104     250
+   4     5    6       2     140     75
+   5     6    7       2     140     75
+   6     7    8       2     104     250
+   6     7    9       2     158     100
+   7     9    10      2     164     350
+   8     9    10      2     106     2000
+[dihedrals]
+;  i     j    k    l   funct   angle  force.c.

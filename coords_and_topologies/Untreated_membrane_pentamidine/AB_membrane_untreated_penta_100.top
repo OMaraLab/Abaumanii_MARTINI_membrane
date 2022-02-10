@@ -1,0 +1,101 @@
+#include "martini_v2.2refP.itp"
+
+#include "martini_v2.0_DPPG_01.itp"
+#ifdef POSRES
+#include restrain_PG_PE.itp
+#endif
+
+#include "martini_v2.0_POPG_02.itp"
+#ifdef POSRES
+#include restrain_PG_PE.itp
+#endif
+
+#include "martini_v2.0_DOPG_02.itp"
+#ifdef POSRES
+#include restrain_PG_PE.itp
+#endif
+
+#include "OIPG.itp"
+#ifdef POSRES
+#include restrain_PG_PE.itp
+#endif
+
+#include "cdl2.itp"
+#ifdef POSRES
+#include restrain_PG_PE.itp
+#endif
+
+#include "cdl1.itp"
+#ifdef POSRES
+#include restrain_PG_PE.itp
+#endif
+
+#include "cdl6.itp"
+#ifdef POSRES
+#include restrain_PG_PE.itp
+#endif
+
+#include "cdl7.itp"
+#ifdef POSRES
+#include restrain_PG_PE.itp
+#endif
+
+#include "cdl8.itp"
+#ifdef POSRES
+#include restrain_PG_PE.itp
+#endif
+
+#include "cdl9.itp"
+#ifdef POSRES
+#include restrain_PG_PE.itp
+#endif
+
+#include "martini_v2.0_POPE_02.itp"
+#ifdef POSRES
+#include restrain_PG_PE.itp
+#endif
+
+#include "martini_v2.0_DOPE_02.itp"
+#ifdef POSRES
+#include restrain_PG_PE.itp
+#endif
+
+#include "martini_v2.0_ions.itp"
+#include "penta_cg.itp"
+
+[ system ]
+; name
+INSANE! Membrane UpperLeaflet>DPPG:POPG:DOPG:OIPG:CDL2:CDL1:CDL6:CDL7:CDL8:CDL9:POPE:DOPE=2.0:22.0:10.0:12.0:8.0:10.0:5.0:3.0:3.0:4.0:11.0:10.0 LowerLeaflet>DPPG:POPG:DOPG:OIPG:CDL2:CDL1:CDL6:CDL7:CDL8:CDL9:POPE:DOPE=2.0:22.0:10.0:12.0:8.0:10.0:5.0:3.0:3.0:4.0:11.0:10.0
+
+
+[ molecules ]
+; name  number
+DPPG            30
+POPG           334
+DOPG           152
+OIPG           182
+CDL2           121
+CDL1           152
+CDL6            76
+CDL7            45
+CDL8            45
+CDL9            60
+POPE           167
+DOPE           152
+DPPG            30
+POPG           334
+DOPG           152
+OIPG           182
+CDL2           121
+CDL1           152
+CDL6            76
+CDL7            45
+CDL8            45
+CDL9            60
+POPE           167
+DOPE           152
+PW          69218 
+NA+              1219
+CL-              1219
+NA+           3192
+PAM            100

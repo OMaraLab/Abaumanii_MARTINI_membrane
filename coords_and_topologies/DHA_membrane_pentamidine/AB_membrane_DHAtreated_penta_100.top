@@ -1,0 +1,110 @@
+;topology for DHA bilayer
+#include "martini_v2.2refP.itp"
+
+#include "martini_v2.0_DPPG_01.itp"
+#ifdef POSRES
+#include restrain_PG_PE.itp
+#endif
+
+#include "martini_v2.0_POPG_02.itp"
+#ifdef POSRES
+#include restrain_PG_PE.itp
+#endif
+
+
+#include "martini_v2.0_DOPG_02.itp"
+#ifdef POSRES
+#include restrain_PG_PE.itp
+#endif
+
+#include "OIPG.itp"
+#ifdef POSRES
+#include restrain_PG_PE.itp
+#endif
+
+#include "OUPG.itp"
+#ifdef POSRES
+#include restrain_PG_PE.itp
+#endif
+
+#include "PUPG.itp"
+#ifdef POSRES
+#include restrain_PG_PE.itp
+#endif
+
+#include "cdl1.itp"
+#ifdef POSRES
+#include restrain_CDL.itp
+#endif
+
+#include "cdl2.itp"
+#ifdef POSRES
+#include restrain_CDL.itp
+#endif
+
+#include "cdl3.itp"
+#ifdef POSRES
+#include restrain_CDL.itp
+#endif
+
+#include "martini_v2.0_POPE_02.itp"
+#ifdef POSRES
+#include restrain_CDL.itp
+#endif
+
+#include "martini_v2.0_DOPE_02.itp"
+#ifdef POSRES
+#include restrain_CDL.itp
+#endif
+
+#include "PUPE.itp"
+#ifdef POSRES
+#include restrain_CDL.itp
+#endif
+
+#include "OUPE.itp"
+#ifdef POSRES
+#include restrain_CDL.itp
+#endif
+
+#include "martini_v2.0_ions.itp"
+#include "penta_cg.itp"
+
+[ system ]
+; name
+INSANE! Membrane UpperLeaflet>DPPG:POPG:DOPG:OIPG:OUPG:PUPG:CDL1:CDL2:CDL3:POPE:DOPE:PUPE:OUPE=6.0:22.0:4.0:3.0:14.0:3.0:13.0:7.0:6.0:11.0:2.0:8.0:1.0 LowerLeaflet>DPPG:POPG:DOPG:OIPG:OUPG:PUPG:CDL1:CDL2:CDL3:POPE:DOPE:PUPE:OUPE=6.0:22.0:4.0:3.0:14.0:3.0:13.0:7.0:6.0:11.0:2.0:8.0:1.0
+
+
+[ molecules ]
+; name  number
+DPPG            91
+POPG           334
+DOPG            60
+OIPG            45
+OUPG           212
+PUPG            45
+CDL1           197
+CDL2           106
+CDL3            91
+POPE           167
+DOPE            30
+PUPE           121
+OUPE            15
+DPPG            91
+POPG           334
+DOPG            60
+OIPG            45
+OUPG           212
+PUPG            45
+CDL1           197
+CDL2           106
+CDL3            91
+POPE           167
+DOPE            30
+PUPE           121
+OUPE            15
+PW          69348 
+NA+              1219
+CL-              1219
+NA+           2950
+PAM            100
